@@ -1,0 +1,7 @@
+API so'rovlari:
+Barcha davlatlar olish uchun:
+https://restcountries.com/v2/all
+
+
+Ism bo'yicha olish:
+https://restcountries.com/v2/name/{name}
