@@ -16,11 +16,12 @@
     else{
         $('.all').innerHTML="";
         data.forEach(item => {
-            const card=createElements('div','box p-3 d-flex m-3',`
+            const card=createElements('div','box p-3 d-md-flex my-5 bg-light rounded-3',`
             <img src="${item.flags.png}" alt="flag" class="box_img">
             <div class="box-body">
-                <h3 class="country">${item.name}</h3>
-                <p>${item.nativeName}</p>
+                <h3 class="country text-center text-md-start">${item.name}</h3>
+                <p class="text-center text-md-start">${item.nativeName}</p>
+                <p class="text-center text-md-start">${item.region}</p>
             </div>`);
 
             card.dataset.info=item.name;
